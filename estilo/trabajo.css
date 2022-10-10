@@ -1,0 +1,38 @@
+/* 
+body{
+    border-color: black;
+    border-width: 0.32em;
+    color: black;
+}
+
+
+section{
+    background-color: aquamarine;
+}
+
+
+main {
+    text-align: justify;
+    border: solid;
+    background-color: beige;
+}
+
+
+header {
+    text-align: center;
+    border: solid;
+    background-color: aqua;
+}
+
+
+article{
+    background-color: cornflowerblue;
+}
+
+/*(0,0,1)
+footer{
+    text-align: center;
+    background-color: cornsilk;
+}
+
+ */
