@@ -1,0 +1,41 @@
+/* 
+    Ana Fernandez Ostio, UO275780 
+    En este archivo va todo lo relacionado con el estilo de la página   
+*/
+
+/*(0,0,1)*/
+header{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*(0,0,1)*/
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*(0,0,2)*/
+nav a{
+    padding: 1em 1em;
+    color: black;
+    /*le quito como si fuera el enlace*/
+    text-decoration-line: none;
+}
+/*(0,1,2)*/
+nav a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+/*(0,0,2)*/
+form fieldset{
+    display: grid;
+    grid-template-areas: 
+    "label radio";
+    position: relative;
+    margin-top: 2%;
+}
+
