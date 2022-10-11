@@ -1,0 +1,107 @@
+
+/* 
+    Ana Fernandez Ostio, UO275780 
+    En este archivo va todo lo comun a los html
+*/
+
+/*(0,0,1)*/
+body{
+    margin: 0.5%;  
+    font-size: 1.1em;
+    background-color: #DEF8FC;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/*(0,0,1)*/
+header{
+    background-color: #4DD2FF;
+}
+
+/*(0,0,1)*/
+video, audio, img {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+/*(0,0,1)*/
+section, article {
+    border: solid;
+    border-color: #7BE6F7;
+    padding: 0.5em;
+    margin: 2%;
+}
+
+/*(0,0,1)*/
+h2, h3, footer{
+    background-color: #7BE6F7;
+    text-align: center;
+}
+
+/*BARRA DE NAVEGACION*/
+/*(0,0,2)*/
+nav a{
+    padding: 1em 1em;
+    /*le quito como si fuera el enlace*/
+    text-decoration-line: none;
+    color: black;
+}
+/*(0,1,2)*/
+nav a:hover{
+    background-color: aliceblue;
+}
+
+/*FORMULARIO*/
+/*(0,0,1)*/
+form{
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #4DD2FF;
+    padding: 0.2em 0.4em;
+    text-align: center;
+}
+/*(0,0,1)*/
+input{
+    width: 90%;
+}
+/*(0,1,1)*/
+input[type="submit"]{
+    padding: 0.8em;
+    margin: 0.3em;
+    font-size: medium;
+    width: 50%;
+    height: 70%;
+}
+/*(0,0,1)*/
+textarea{
+    width: 90%;
+    max-width: 90%;
+    min-width: 50%;
+    height: 50%;
+    min-height: 50%;
+    margin: auto;
+}
+
+/*TABLA*/
+/*(0,0,1)*/
+table{
+    width:100%;
+    border: 0.15em solid #4DD2FF;
+    text-align: center;
+    border-collapse: collapse;
+    color: black;
+}
+
+/*(0,0,1)*/
+th { 
+    background-color: #4DD2FF;
+    border: 0.05em solid #4DD2FF;     
+}
+
+/*(0,0,1)*/
+td{
+    border: 0.05em solid #4DD2FF;  
+}
