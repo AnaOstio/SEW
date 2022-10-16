@@ -1,8 +1,7 @@
 /* 
     Ana Fernandez Ostio, UO275780 
-    En este archivo va todo lo relacionado con el estilo de la página   
+    En este archivo va todo lo relacionado con la forma que adopta la web  
 */
-
 /*(0,0,1)*/
 header{
     display: flex; 
@@ -30,5 +29,5 @@ form fieldset{
 /*(0,0,1)*/
 body{
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
 }
