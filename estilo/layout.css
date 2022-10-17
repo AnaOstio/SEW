@@ -11,6 +11,12 @@ header{
 }
 
 /*(0,0,1)*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*(0,0,1)*/
 nav{
     display: flex;
     justify-content: center;
@@ -24,10 +30,4 @@ form fieldset{
     "label radio";
     position: relative;
     margin-top: 2%;
-}
-
-/*(0,0,1)*/
-body{
-    display: flex;
-    flex-direction: column;
 }

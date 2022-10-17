@@ -1,7 +1,8 @@
 
 /* 
     Ana Fernandez Ostio, UO275780 
-    En este archivo va todo lo comun a los html
+    En este archivo va todo lo comun a los html en cuanto al estilo
+    que se puede encontrar en el sitio web.
 */
 
 /*(0,0,1)*/
@@ -15,14 +16,8 @@ body{
 
 /*(0,0,1)*/
 header{
+    /*el color de las letras, lo hereda de body*/
     background-color: #4DD2FF;
-}
-
-/*(0,0,1)*/
-video, audio, img {
-    display: block;
-    width: 75%;
-    margin: auto;
 }
 
 /*(0,0,1)*/
@@ -35,13 +30,22 @@ section, article {
 
 /*(0,0,1)*/
 h2, h3, footer{
+    /*el color de las letras, lo hereda de body*/
     background-color: #7BE6F7;
     text-align: center;
+}
+
+/*(0,0,1)*/
+video, audio, img {
+    display: block;
+    width: 75%;
+    margin: auto;
 }
 
 /*BARRA DE NAVEGACION*/
 /*(0,0,2)*/
 nav a{
+    /*el color de fondo lo hereda de body*/
     padding: 1em 1em;
     /*le quito como si fuera el enlace*/
     text-decoration-line: none;
@@ -49,17 +53,16 @@ nav a{
 }
 /*(0,1,2)*/
 nav a:hover{
+    /*el color de las letras, lo hereda de nav a*/
     background-color: aliceblue;
 }
-
 /*FORMULARIO*/
 /*(0,0,1)*/
 form{
     width: 50%;
     margin: auto;
-    border-style: solid;
-    border-width: 0.3em;
-    border-color: #4DD2FF;
+
+
     padding: 0.2em 0.4em;
     text-align: center;
 }
@@ -88,6 +91,7 @@ textarea{
 /*TABLA*/
 /*(0,0,1)*/
 table{
+    /*el color de fondo lo hereda de body*/
     width:100%;
     border: 0.15em solid #4DD2FF;
     text-align: center;
