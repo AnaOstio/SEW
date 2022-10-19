@@ -4,16 +4,11 @@
 */
 /*(0,0,1)*/
 header{
+    grid-area: header;
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-}
-
-/*(0,0,1)*/
-body{
-    display: flex;
-    flex-direction: column;
 }
 
 /*(0,0,1)*/
@@ -31,3 +26,32 @@ form fieldset{
     position: relative;
     margin-top: 2%;
 }
+
+/*(0,0,1)*/
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'main main aside'
+    'footer footer footer';
+}
+
+/*(0,0,1)*/
+section{
+    grid-area: section;
+}
+
+/*(0,0,1)*/
+aside {
+    grid-area: aside;
+}
+
+/*(0,0,1)*/
+footer{
+    grid-area: footer;
+}
+/*(0,0,1)*/
+main{
+    grid-area: main;
+}
+
