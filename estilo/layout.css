@@ -18,14 +18,6 @@ nav{
     flex-wrap: wrap;
 }
 
-/*(0,0,2)*/
-form fieldset{
-    display: grid;
-    grid-template-areas: 
-    "label radio";
-    position: relative;
-    margin-top: 2%;
-}
 
 /*(0,0,1)*/
 body{
