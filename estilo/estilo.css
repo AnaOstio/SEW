@@ -52,7 +52,9 @@ form{
 }
 /*(0,0,1)*/
 input{
-    width: 50em;
+    margin-top: 0.625em;
+    margin-bottom: 0.375em;
+    margin-left:0.5em ;
 }
 
 /*TABLA*/
