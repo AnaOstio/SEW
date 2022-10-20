@@ -15,6 +15,7 @@ body{
 
 /*(0,0,1)*/
 header, h2, h3, footer{
+    /*El color de la letra lo hereda de body*/
     background-color: #4DD2FF;
 }
 
@@ -34,6 +35,7 @@ section, article, aside {
 /*BARRA DE NAVEGACION*/
 /*(0,0,2)*/
 nav a{
+    /*El color de fondo lo hereda de header*/
     padding: 1em 1em;
     /*le quito como si fuera el enlace*/
     text-decoration-line: none;
@@ -41,6 +43,7 @@ nav a{
 }
 /*(0,1,2)*/
 nav a:hover{
+    /*El color de la letra lo hereda de nav a*/
     background-color: aliceblue;
 }
 
@@ -67,6 +70,7 @@ table{
 
 /*(0,0,1)*/
 th { 
+    /*El color de la letra lo hereda de body*/
     background-color: #4DD2FF;
     border: 0.05em solid #4DD2FF;     
 }
