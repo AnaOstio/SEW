@@ -20,7 +20,7 @@ header, h2, h3, footer{
 
 /*(0,0,1)*/
 video, audio, img {
-    width: 20em;
+    width: 60%;
 }
 
 /*(0,0,1)*/
