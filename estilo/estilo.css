@@ -20,11 +20,6 @@ header, h2, h3, footer{
 }
 
 /*(0,0,1)*/
-video, audio, img {
-    width: 60%;
-}
-
-/*(0,0,1)*/
 section, article, aside {
     border: solid;
     border-color: #7BE6F7;
@@ -32,19 +27,10 @@ section, article, aside {
     margin: 0.2em;
 }
 
-/*BARRA DE NAVEGACION*/
-/*(0,0,2)*/
-nav a{
-    /*El color de fondo lo hereda de header*/
-    padding: 1em 1em;
-    /*le quito como si fuera el enlace*/
-    text-decoration-line: none;
-    color: black;
-}
-/*(0,1,2)*/
-nav a:hover{
-    /*El color de la letra lo hereda de nav a*/
-    background-color: aliceblue;
+/*(0,0,1)*/
+video, img {
+    width: 100%;
+    height: auto;
 }
 
 /*FORMULARIO*/
@@ -78,4 +64,19 @@ th {
 /*(0,0,1)*/
 td{
     border: 0.05em solid #4DD2FF;  
+}
+
+/*BARRA DE NAVEGACION*/
+/*(0,0,2)*/
+nav a{
+    /*El color de fondo lo hereda de header*/
+    padding: 1em 1em;
+    /*le quito como si fuera el enlace*/
+    text-decoration-line: none;
+    color: black;
+}
+/*(0,1,2)*/
+nav a:hover{
+    /*El color de la letra lo hereda de nav a*/
+    background-color: aliceblue;
 }
